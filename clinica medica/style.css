@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0000008c;
+    
+}
+
+
+.container{
+    max-width: 1024px;
+}
+
+
+/*--------TOPO--------*/
+
+.topo{
+    background-color: #00cad1;
+    width: 100%;
+}
+
+.topo .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.links-topo{
+    margin-left: 15px;
+    padding: 10px;
+}
+
+#img-topo img{
+    width: 150px;
+}
+
+.links-topo a{
+    font-weight: 600;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.links-topo a:hover{
+    color: #0000008c;
+}
+
+/*CONTEUDO*/
+
+.fullscreen{
+    position: relative;
+   background-image: url(assets/recepcao.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 500px;
+    
+}
+
+.containerClinica {
+    margin-left: 155px;
+    max-width: 1024px;
+    height: 100%;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.containerClinica h1{
+    
+    color: #fff;
+    padding: 10px;
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.containerTitulo{
+    font-size: 18px;
+    padding-top: 50px;
+    margin: 0 auto;
+    max-width: 1024px;
+    text-align: center;
+
+}
+.containerNossaClinica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#navSobre{
+    font-size: 18px;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+#h3Sobre{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+.containerMulti{
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.containerMulti figure{
+    display: flex;
+    max-width: 1024px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-img{
+    margin: 20px;
+    padding: 1px 1px 15px 1px;
+    text-align: center;
+    box-shadow: 0px 1px 10px grey;
+    
+}
+
+.box-img figcaption{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.containerMulti figure img{
+    width: 240px;
+}
+
+#buttonHorario{
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonHorario a{
+    border: 1px solid #03BCD8;
+    padding: 7px 25px 7px 25px;
+    background-color: #03BCD8;
+    text-decoration: none;
+    color: white;
+}
+
+.containerTitulo h3, p{
+    padding: 10px;
+}
+
+#footer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+   
+    color: white;
+}
+
+footer{
+    
+    background-color: #0D6E71;
+    width: 100%;
+}
+
+#footer img{
+    width: 150px;
+}

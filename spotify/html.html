@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<button id="cntt-mobile"><a href="#" id="linkrandom" target="_blank">Fale com a gente pelo Whats</a></button>
+
+<script>
+
+let random = Math.floor(Math.random() * 2)
+
+const links = ['https://wa.me/5547989043405', 'https://wa.me/5547988701501']
+
+let link = document.getElementById("linkrandom")
+link.setAttribute("href", links[random])
+ 
+    
+</script>
+
+<style>
+    #cntt-mobile{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+        color: black;
+        border: solid #25BE66 2pt;
+        border-radius: 35px;
+        font-family: IBM Plex Sans;
+        font-size: 12px;
+        font-weight: 500;
+        width: 220px;
+    }
+    #cntt-mobile:hover{
+        width: 250px;
+        padding: 10px;
+        font-size: 15px;
+        
+    }
+    
+    #linkrandom{
+        color: #444444 !important;
+    }
+</style>

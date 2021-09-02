@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right,#6e3b6c, #8183B1);
+}
+
+header {
+    font-weight: 700;
+    position: fixed;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.5);
+}
+
+header nav li {
+    align-items: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+nav li ul a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+#risco::before{
+    align-items: center; 
+    content: '';
+    background: white;
+    display: block;
+    width: 0.1px;
+    height: 15px;
+    margin-left: 15px;
+    border-radius: 2px;
+}
+
+
+.buttonA, #perfilFoto, #escritaPerfil{
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.buttonA {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+#perfilFoto {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin-left: 25px;
+}
+
+#premium:hover, #suporte:hover, #baixar:hover, #escritaPerfil:hover{
+    color: rgb(87, 177, 87);
+    
+
+
+}
+
+.firstSection{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 35%;
+    left: 20%;
+
+}
+
+.firstDiv{
+    display: block;
+    margin-right: 20px;
+}
+
+#Tocadas{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+}
+
+#Escute{
+    color: #fff;
+    font-size: 80px;
+    letter-spacing: -0.04em;
+    line-height: 1.15; 
+    font-weight: 900;
+    text-align: left;
+}
+
+#Continue{
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: -0.01em;
+    line-height: 1.4;
+    font-weight: 900;
+    text-align: left;
+}
+
+.btn-web{
+    text-align: center;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(87, 177, 87);
+    margin: 24px 0;
+    border-radius: 500px;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 20px 55px 25px;
+}
+
+
+.containerAlbuns{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+.secondSection{
+    background-color:#121212;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    
+}
+
+#tocadasRecentemente{
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.imagensAlbum{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    
+}
+
+
+
+.imagensAlbumContent{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181818;
+    border-radius: 5px;
+    padding: 10px 10px 25px 10px ;
+    
+}
+
+.imagensAlbumContent h2{
+    margin-top: 25px;
+}
+
+.albunsName{   
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
